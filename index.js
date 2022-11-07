@@ -252,7 +252,7 @@ I hope you will come back soon, but we are not going to miss you though!
         return status
     }
 	
-    Miku.public = true
+    Miku.public = false
 	
     Miku.ev.on('creds.update', saveState)
 
